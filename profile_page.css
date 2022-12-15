@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+.nav {
+    padding: 10px;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+}
+
+.nav-left {
+    width: 50%;
+    display: flex;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none;
+    color: gray; 
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    padding: 7px 10px 7px 10px;
+    border-color: black;
+    font-size: 11pt;
+    background-color: rgb(5, 171, 190);
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.user-card {
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    padding: 50px;
+    background-image: linear-gradient(rgb(0, 138, 156) 100px, white 20%);
+}
+
+.profile {
+    width: 100px;
+}
+
+.marker, .settings {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.ep {
+    text-decoration: underline;
+    color: rgb(67, 135, 244);
+}
+
+.location, .about, .edit {
+    margin-top: 10px;
+} 
+
+.location {
+    display: flex;
+}
+
+.main {
+    margin: 0 auto;
+    width: 77%; /* Check this out first thing, see if we actually need this */
+    display: flex;
+    margin-top: 40px;
+}
+
+.main-left {
+    width: 65%;
+    margin-right: 40px;
+}
+
+.education {
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    margin-top: 40px;
+}
+
+.title {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15pt;
+    padding: 10px;
+    
+}
+
+.Full-Stack {
+    margin-left: 10px;
+}
+
+.time {
+    color: rgb(155, 154, 154);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.main-right {
+    width: 35%;
+}
+
+.cr {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+
+}
+
+.num {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15pt;
+    background-color: rgb(165, 165, 165);
+}
+
+.requests, .connections {
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    margin-bottom: 40px;
+}
+
+.cr-title {
+    font-size: 15pt;
+}
+
+.todd, .phil {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.todd-left, .phil-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.todd-right, .phil-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.t-image, .p-image, .a-image, .anne-image, .alayne-image, .arry-image {
+    height: 60px;
+    border-radius: 40px;
+}
+
+.accept-circle, .close-circle {
+    height: 60px;
+}
+
+.your-connections {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.num-connections {
+    background-color: rgb(165, 165, 165);
+    font-size: 15pt;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.yc {
+    font-size: 15pt;
+}
+
+.adrien, .anne, .alayne, .arry {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+.vm {
+    margin-left: 27px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: rgb(67, 135, 244);
+}
